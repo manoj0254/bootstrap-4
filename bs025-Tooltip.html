@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<!--bs010-Button-01-Styles- -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+	<h2>Tooltip</h2>
+
+  <h3>Tooltip Example</h3>
+  <a href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>
+<hr>
+  <h3>Tooltip Example</h3>
+  <p>The data-placement attribute specifies the tooltip position.</p>
+  <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Top</a>
+  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Bottom</a>
+  <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a>
+  <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Right</a>
+
+	
+	
+    </div>
+  </div>
+</div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $('[data-toggle="tooltip"]').tooltip();   
+	});
+	</script>  
+  
+</body>
+</html>
